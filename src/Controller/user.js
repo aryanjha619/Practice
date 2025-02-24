@@ -2,7 +2,7 @@ const {Router} = require('express');
 const router = Router();
 const path = require('path');
 const upload = require('multer');
-const useModel = require('./src/Model/userModel');
+const useModel = require('../Model/userModel');
 
 router.post('/create-user',async(req,res)=>{
     const {name,email,password} = req.body;
