@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDB = require('./src/Database/db');
-const router = require('./Controller/user');
+const router = require('./src/Controller/user');
 const app = express();
 
 require('dotenv').config({path:'./Config/.env'});
